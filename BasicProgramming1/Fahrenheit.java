@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Fahrenheit
+{
+	public static void main(String agrs[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter temperature in Celsius:");
+		int Celsius=sc.nextInt();
+		double Fahrenheit=(Celsius*9/5)+32;
+		System.out.println("Convert Celsius into Fahrenheit:-"+Fahrenheit);
+	}
+}	
+		
