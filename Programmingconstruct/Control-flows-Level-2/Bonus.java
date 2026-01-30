@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Bonus
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Salary:-");
+		int Salary=sc.nextInt();
+		System.out.println("Enter YearOfService:-");
+		int YearOfService=sc.nextInt();
+		if(YearOfService>5)
+		{
+			double bonus=Salary*0.05;
+			System.out.println("Bonus for employees:-"+bonus);
+		}
+		else
+		{
+			System.out.println("Bonus  not required");
+		}
+	}
+}
